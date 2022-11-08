@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('codeu');
             $table->string('name');
             $table->string('edad');
-            $table->string('cicloacademico1');
+            $table->string('cicloacademico');
             $table->timestamps();
         });
     }
